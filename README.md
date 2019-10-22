@@ -26,11 +26,11 @@
 ```js
 {
     "code":0,
-    "data":{
-    },
+    "data":{},
     "msg":"请求成功",
     "success":true
 }
+
 {
     "code":0,
     "data":[],
