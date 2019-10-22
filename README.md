@@ -14,6 +14,30 @@
 | timestamp          | string   | 时间戳                  | 是               |
 | randomNum          | string   | 随机数，32位                    | 是               |
 
+## 基础数据说明
+
+| 参数名         | 类型            | 描述                          | 是否必须            |
+| ----------- | ------------- | --------------------------- | --------------- |
+| code          | int   | 状态码，0:数据返回成功，401 校验失败，402，token失效重新登陆                   | 是               |
+| data          | object   | 返回数据                  | 是               |
+| msg          | string   | 详细相应描述                    | 是               |
+| success          | boolean   | 请求是否成功，true/false                   | 是               |
+
+```js
+{
+    "code":0,
+    "data":{
+    },
+    "msg":"请求成功",
+    "success":true
+}
+{
+    "code":0,
+    "data":[],
+    "msg":"请求成功",
+    "success":true
+}
+```
 
 ## 用户系统
 
