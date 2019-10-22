@@ -1,0 +1,16 @@
+
+陀螺世界的服务协议：
+https://h5.tuoluoshijie.com/h5/common/service_pact.html
+隐私协议：
+https://h5.tuoluoshijie.com/h5/common/privacy_pact.html
+提现说明：
+https://h5.tuoluoshijie.com/h5/prod/tlsj/index.html#/withdraw/explain
+设置--->常见问题
+https://h5.tuoluoshijie.com/h5/common/common_problem.html
+关注微信服务号：
+https://h5.tuoluoshijie.com/h5/common/about_wechat.html
+关于TLBC：
+https://h5.tuoluoshijie.com/h5/common/about_tlbc.html
+
+1: 版本更新，bug修复\n2:fix bug  
+\n
