@@ -19,21 +19,21 @@
 | 参数名         | 类型            | 描述                          | 是否必须            |
 | ----------- | ------------- | --------------------------- | --------------- |
 | code          | int   | 状态码，0:数据返回成功，401 校验失败，402，token失效重新登陆                   | 是               |
-| data          | object   | 返回数据                  | 是               |
+| data          | object   | 返回的数据                 | 是               |
 | msg          | string   | 详细相应描述                    | 是               |
 | success          | boolean   | 请求是否成功，true/false                   | 是               |
+| encrydata          | string   | 加密的数据                   | 是               |
+| timestamp          | string   | 时间戳                   | 是               |
+| nonce          | string   | 随机数                  | 是               |
 
 ```js
 {
     "code":0,
-    "data":{},
-    "msg":"请求成功",
-    "success":true
-}
-
-{
-    "code":0,
-    "data":[],
+    "data":{
+        "encrydata":"ud129vsdf12efgfs102",
+        "timestamp":4343434343434343,
+        "nonce":"54545454"
+    },
     "msg":"请求成功",
     "success":true
 }
