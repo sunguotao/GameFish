@@ -75,5 +75,21 @@ POST /user/loginByWechat
     "success":true
 }
 ```
+### 修改昵称{# user/updateNickName}
 
+后端需要根据请求头中的`token`鉴权
+```
+POST user/updateNickNam
+```
+```js
+```
+
+### test{#test.json}
+
+后端需要根据请求头中的`token`鉴权
+```
+POST /funcSwitch/getAll.json
+```
+```js
+```
 
