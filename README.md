@@ -91,7 +91,7 @@ POST user/updateNickNam
 {
     "code":0,
     "data":null,
-    "msg":"请求成功",
+    "msg":"修改成功",
     "success":true
 }
 
