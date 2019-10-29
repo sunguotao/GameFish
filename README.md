@@ -97,6 +97,30 @@ POST user/updateNickNam
 
 ```
 
+###  瞄圈主页{# user/index}
+
+后端需要根据请求头中的`token`鉴权
+```
+POST user/index
+```
+```js
+{
+    "code":0,
+    "data":{
+        "catForce":1000,
+        "wealthCarProgress":"23.6%",
+        "wealthCarInfo":"限量10万只招财猫进度完成100%必得一只",
+        "targetEarn":200,
+        "activityEarn":50,
+        "wealthCarEarn":70,
+        "wealthCarTitle":"一星挑战"
+    },
+    "msg":"修改成功",
+    "success":true
+}
+```
+
+
 ### test{#test.json}
 
 后端需要根据请求头中的`token`鉴权
