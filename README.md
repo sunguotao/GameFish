@@ -107,13 +107,16 @@ POST user/index
 {
     "code":0,
     "data":{
-        "catForce":1000,
-        "wealthCarProgress":"23.6%",
-        "wealthCarInfo":"限量10万只招财猫进度完成100%必得一只",
+        "catForce":3000,
+        "fishDried ":"800.2",
+        "wealthCatProgress":"23.6%",
+        "wealthCatInfo":"限量10万只招财猫进度完成100%必得一只",
         "targetEarn":200,
         "activityEarn":50,
-        "wealthCarEarn":70,
-        "wealthCarTitle":"一星挑战"
+        "wealthCatEarn":70,
+        "wealthCatTitle":"一星挑战",
+        "targetProgress":"73%",
+        "speedUp":"x1.1倍加速中"
     },
     "msg":"修改成功",
     "success":true
