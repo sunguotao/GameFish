@@ -116,7 +116,8 @@ POST user/index
         "wealthCatEarn":70,
         "wealthCatTitle":"一星挑战",
         "targetProgress":"73%",
-        "speedUp":"x1.1倍加速中"
+        "speedUp":"x1.1倍加速中",
+        "catLevel":1
     },
     "msg":"修改成功",
     "success":true
