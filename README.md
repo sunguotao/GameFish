@@ -214,7 +214,33 @@ POST user/invitationInfo
     "success":true
 }
 ```
+### 我的资产{# user/myAssetsList}
 
+后端需要根据请求头中的`token`鉴权
+```
+POST user/myAssetsList
+```
+| 参数名         | 类型            | 描述                          | 是否必须            |
+| ----------- | ------------- | --------------------------- | --------------- |
+| pageSize          | int   | pageSize                   | 否（默认20）               |
+| pageNum          | int   | pageNum                | 否（默认1）               |
+| type          | int   | 0：金鱼干；1：瞄力；2:招财猫               | 是）               |
+
+```js
+{
+    "code":200,
+    "data":[
+        {
+            "score":10,
+            "title":"title",
+            "time":65655656
+        }
+    ],
+    "msg":"请求成功",
+    "success":true
+}
+
+```
 
 ### test{#test.json}
 
