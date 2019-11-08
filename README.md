@@ -155,6 +155,11 @@ POST user/wallet
 ```
 POST user/extractCash
 ```
+| 参数名         | 类型            | 描述                          | 是否必须            |
+| ----------- | ------------- | --------------------------- | --------------- |
+| pageSize          | int   | pageSize                   | 是               |
+| pageName          | int   | pageName                | 是               |
+
 ```js
 {
     "code":0,
