@@ -224,7 +224,7 @@ POST user/myAssetsList
 | ----------- | ------------- | --------------------------- | --------------- |
 | pageSize          | int   | pageSize                   | 否（默认20）               |
 | pageNum          | int   | pageNum                | 否（默认1）               |
-| type          | int   | 0：金鱼干；1：瞄力；2:招财猫               | 是）               |
+| type          | int   | 0：金鱼干；1：瞄力；2:招财猫               | 是               |
 
 ```js
 {
