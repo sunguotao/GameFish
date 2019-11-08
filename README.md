@@ -232,7 +232,7 @@ POST user/myAssetsList
     "data":[
         {
             "score":10,
-            "title":"title",
+            "info":"title",
             "time":65655656
         }
     ],
