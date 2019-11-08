@@ -149,7 +149,26 @@ POST user/wallet
     "success":true
 }
 ```
+### 零钱记录{# user/extractCash}
 
+后端需要根据请求头中的`token`鉴权
+```
+POST user/extractCash
+```
+```js
+{
+    "code":0,
+    "data":[
+        {
+            "time":64565757765,
+            "cash":12,
+            "info":"现金提取"
+        }
+    ],
+    "msg":"修改成功",
+    "success":true
+}
+```
 
 
 ### test{#test.json}
