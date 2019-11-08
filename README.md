@@ -193,6 +193,28 @@ POST user/putForwardCash
     "success":true
 }
 ```
+### 我的邀请码界面{# user/invitationInfo}
+
+后端需要根据请求头中的`token`鉴权
+```
+POST user/invitationInfo
+```
+```js
+{
+    "code":200,
+    "data":{
+        "allForce":20,
+        "childNum":10,
+        "grandsonNum":10,
+        "childForce":10,
+        "grandsonForce":10,
+        "invitationUrl":"http://url.com"
+    },
+    "msg":"请求成功",
+    "success":true
+}
+```
+
 
 ### test{#test.json}
 
