@@ -145,7 +145,7 @@ POST user/wallet
             "200"
         ]
     },
-    "msg":"修改成功",
+    "msg":"请求成功",
     "success":true
 }
 ```
