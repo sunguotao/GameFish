@@ -162,7 +162,7 @@ POST user/extractCash
 
 ```js
 {
-    "code":0,
+    "code":200,
     "data":[
         {
             "time":64565757765,
@@ -174,7 +174,20 @@ POST user/extractCash
     "success":true
 }
 ```
+### 提取现金 {# user/putForwardCash}
 
+后端需要根据请求头中的`token`鉴权
+```
+POST user/putForwardCash
+```
+```js
+{
+    "code":200,
+    "data":null,
+    "msg":"提取成功",
+    "success":true
+}
+```
 
 ### test{#test.json}
 
