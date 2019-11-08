@@ -123,6 +123,33 @@ POST user/index
     "success":true
 }
 ```
+### 我的钱包{# user/wallet}
+
+后端需要根据请求头中的`token`鉴权
+```
+POST user/wallet
+```
+```js
+{
+    "code":200,
+    "data":{
+        "walletMoney":0,
+        "cashType":"weChat",
+        "walletList":[
+            "0.3",
+            "20",
+            "30",
+            "40",
+            "50",
+            "100",
+            "200"
+        ]
+    },
+    "msg":"修改成功",
+    "success":true
+}
+```
+
 
 
 ### test{#test.json}
