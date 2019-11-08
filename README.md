@@ -180,6 +180,11 @@ POST user/extractCash
 ```
 POST user/putForwardCash
 ```
+
+| 参数名         | 类型            | 描述                          | 是否必须            |
+| ----------- | ------------- | --------------------------- | --------------- |
+| cashType          | string   | 微信weChat                     | 是               |
+| cash          | string   | 现金                    | 是               |
 ```js
 {
     "code":200,
