@@ -157,8 +157,8 @@ POST user/extractCash
 ```
 | 参数名         | 类型            | 描述                          | 是否必须            |
 | ----------- | ------------- | --------------------------- | --------------- |
-| pageSize          | int   | pageSize                   | 是               |
-| pageName          | int   | pageName                | 是               |
+| pageSize          | int   | pageSize                   | 否（默认20）               |
+| pageNum          | int   | pageNum                | 否（默认1）               |
 
 ```js
 {
