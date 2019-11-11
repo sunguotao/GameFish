@@ -241,6 +241,33 @@ POST user/myAssetsList
 }
 
 ```
+### 我的瞄友圈（徒弟，徒孙，待激活）{# user/myCatCircle}
+
+后端需要根据请求头中的`token`鉴权
+```
+POST user/myCatCircle
+```
+| 参数名         | 类型            | 描述                          | 是否必须            |
+| ----------- | ------------- | --------------------------- | --------------- |
+| pageSize          | int   | pageSize                   | 否（默认20）               |
+| pageNum          | int   | pageNum                | 否（默认1）               |
+| type          | int   | 0：徒弟；1：徒孙；2:待激活               | 是               |
+```js
+{
+    "code":200,
+    "data":[
+        {
+            "userName":"userName",
+            "level":"title",
+            "time":65655656,
+            "stateType":0
+        }
+    ],
+    "msg":"请求成功",
+    "success":true
+}
+stateType 0:待激活，1:已激活
+```
 
 ### test{#test.json}
 
