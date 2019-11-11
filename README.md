@@ -269,6 +269,46 @@ POST user/myCatCircle
 stateType 0:待激活，1:已激活
 ```
 
+### 我的师傅{# user/myTeacher}
+
+后端需要根据请求头中的`token`鉴权
+```
+POST /funcSwitch/getAll.json
+```
+```js
+{
+    "code":200,
+    "data":{
+        "id":124343,
+        "mobile":18653076099,
+        "userName":"userName",
+        "avatar":"http://4teyrtytry.com",
+        "level":"24",
+        "isLike":false
+    },
+    "msg":"请求成功",
+    "success":true
+}
+```
+### 给师傅点赞，取消点赞{# user/myTeacherIsLike}
+
+后端需要根据请求头中的`token`鉴权
+```
+POST /funcSwitch/getAll.json
+```
+| 参数名         | 类型            | 描述                          | 是否必须            |
+| ----------- | ------------- | --------------------------- | --------------- |
+| id          | string   | 师傅id                   | 是             |
+| isLike          | boolean   | true,false                | 是               |
+```js
+{
+    "code":200,
+    "data":null,
+    "msg":"点赞成功",
+    "success":true
+}
+```
+
 ### test{#test.json}
 
 后端需要根据请求头中的`token`鉴权
