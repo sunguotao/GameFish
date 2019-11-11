@@ -281,7 +281,7 @@ POST /funcSwitch/getAll.json
     "data":{
         "id":124343,
         "mobile":18653076099,
-        "userName":"userName",
+        "nickname":"nickname",
         "avatar":"http://4teyrtytry.com",
         "level":"24",
         "isLike":false
