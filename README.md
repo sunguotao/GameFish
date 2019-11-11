@@ -308,6 +308,41 @@ POST /funcSwitch/getAll.json
     "success":true
 }
 ```
+### 实名认证数据提交{# user/authRealName}
+
+后端需要根据请求头中的`token`鉴权
+```
+POST user/authRealName
+```
+| 参数名         | 类型            | 描述                          | 是否必须            |
+| ----------- | ------------- | --------------------------- | --------------- |
+| userName          | string   | userName                | 是             |
+| userID          | boolean   | userID               | 是               |
+```js
+{
+    "code":200,
+    "data":null,
+    "msg":"提交成功",
+    "success":true
+}
+```
+### 获取实名认证信息{# user/getAuthRealName}
+
+后端需要根据请求头中的`token`鉴权
+```
+POST user/getAuthRealName
+```
+```js
+{
+    "code":200,
+    "data":{
+        "userName":"孙国涛",
+        "userID":"329687874535946946"
+    },
+    "msg":"返回成功",
+    "success":true
+}
+```
 
 ### test{#test.json}
 
