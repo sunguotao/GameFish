@@ -317,7 +317,7 @@ POST user/authRealName
 | 参数名         | 类型            | 描述                          | 是否必须            |
 | ----------- | ------------- | --------------------------- | --------------- |
 | userName          | string   | userName                | 是             |
-| userID          | boolean   | userID               | 是               |
+| userID          | string   | userID               | 是               |
 ```js
 {
     "code":200,
