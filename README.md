@@ -343,6 +343,31 @@ POST user/getAuthRealName
     "success":true
 }
 ```
+### 我的收益{# user/earnList}
+
+后端需要根据请求头中的`token`鉴权
+```
+POST  user/earnList
+```
+| 参数名         | 类型            | 描述                          | 是否必须            |
+| ----------- | ------------- | --------------------------- | --------------- |
+| pageSize          | int   | pageSize                   | 否（默认20）               |
+| pageNum          | int   | pageNum                | 否（默认1）               |
+```js
+{
+    "code":200,
+    "data":[
+        {
+            "time":54544546464,
+            "activityEarn":1.3,
+            "wealthCatEarn":2.3
+        }
+    ],
+    "msg":"返回成功",
+    "success":true
+}
+```
+
 
 ### test{#test.json}
 
