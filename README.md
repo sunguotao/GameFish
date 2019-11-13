@@ -367,6 +367,27 @@ POST  user/earnList
     "success":true
 }
 ```
+### 版本更新{# user/versionUpdate}
+
+后端需要根据请求头中的`token`鉴权
+```
+POST user/versionUpdate
+```
+```js
+{
+    "code":200,
+    "data":{
+        "downloadUrl":"",
+        "downloadMsg":"1:fix bug\n2:  用户数据修改",
+        "downloadFileSize":"100M",
+        "forcedUpdate":true,
+        "versionName":1,
+        "versionCode":1
+    },
+    "msg":"返回成功",
+    "success":true
+}
+```
 
 
 ### test{#test.json}
