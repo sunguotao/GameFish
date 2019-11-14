@@ -13,6 +13,7 @@ window.android.callAndroid(game);
 action==1时，全屏视频广告播放,action==2时， 触发底部banner广告,
 action==3时分享调起，action==4时网页调起，
 action==5时，收益的dialog，
+action==6时，红包列表dialog
 待定
 ```
 ```js
