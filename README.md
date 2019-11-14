@@ -420,7 +420,7 @@ POST user/earnHistoryInfo
 
 后端需要根据请求头中的`token`鉴权
 ```
-POST /funcSwitch/getAll.json
+POST sendSms
 ```
 | 参数名         | 类型            | 描述                          | 是否必须            |
 | ----------- | ------------- | --------------------------- | --------------- |
@@ -433,11 +433,11 @@ POST /funcSwitch/getAll.json
     "success":true
 }
 ```
-### 绑定手机号码{# sendSms}
+### 绑定手机号码{# bindPhone}
 
 后端需要根据请求头中的`token`鉴权
 ```
-POST /funcSwitch/getAll.json
+POST bindPhone
 ```
 | 参数名         | 类型            | 描述                          | 是否必须            |
 | ----------- | ------------- | --------------------------- | --------------- |
