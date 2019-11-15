@@ -468,7 +468,49 @@ userInfo 返回的数据
     "success":true
 }
 ```
+### 红包列表{# user/redPacketList}
 
+后端需要根据请求头中的`token`鉴权
+```
+POST user/redPacketList
+```
+```js
+{
+    "code":0,
+    "data":[
+        {
+            "redPackketId":12,
+            "redPacketTitle":"title",
+            "redPacketInfo":"info",
+            "fromRedPacket":"喵咪星球的红包",
+            "redRedPacketintroduce":"随机红包（最高8元）",
+            "redPacket":2
+        }
+    ],
+    "msg":"请求成功",
+    "success":true
+}
+```
+### 打开红包放入钱包{# user/getRedPacket}
+
+后端需要根据请求头中的`token`鉴权
+```
+POST user/getRedPacket
+```
+### 字段说明
+
+| 参数名         | 类型            | 描述                          | 是否必须            |
+| ----------- | ------------- | --------------------------- | --------------- |
+| redPacketId          | String   | 红包id                | 是               |
+| redPacket          | double   |  红包金额                | 是               |
+```js
+{
+    "code":0,
+    "data":null,
+    "msg":"红包下发成功",
+    "success":true
+}
+```
 ### test{#test.json}
 
 后端需要根据请求头中的`token`鉴权
