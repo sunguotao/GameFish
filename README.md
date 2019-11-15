@@ -480,6 +480,7 @@ POST user/redPacketList
     "data":[
         {
             "redPackketId":12,
+            "redPackketImgUrl":"",
             "redPacketTitle":"title",
             "redPacketInfo":"info",
             "fromRedPacket":"喵咪星球的红包",
