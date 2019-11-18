@@ -523,6 +523,7 @@ POST user/BindInvitationCode
 | 参数名         | 类型            | 描述                          | 是否必须            |
 | ----------- | ------------- | --------------------------- | --------------- |
 | invitationCode          | String   |邀请码                | 是               |
+| phone          | String   |手机号码                | 是               |
 ```js
 {
     "code":0,
