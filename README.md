@@ -512,6 +512,26 @@ POST user/getRedPacket
     "success":true
 }
 ```
+### 绑定邀请码（选填）{# user/BindInvitationCode}
+
+后端需要根据请求头中的`token`鉴权
+```
+POST user/BindInvitationCode
+```
+### 字段说明
+
+| 参数名         | 类型            | 描述                          | 是否必须            |
+| ----------- | ------------- | --------------------------- | --------------- |
+| invitationCode          | String   |邀请码                | 是               |
+```js
+{
+    "code":0,
+    "data":null,
+    "msg":"绑定成功",
+    "success":true
+}
+```
+
 ### test{#test.json}
 
 后端需要根据请求头中的`token`鉴权
