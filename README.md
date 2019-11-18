@@ -512,11 +512,11 @@ POST user/getRedPacket
     "success":true
 }
 ```
-### 绑定邀请码（选填）{# user/BindInvitationCode}
+### 绑定邀请码（选填）{# user/bindInvitationCode}
 
 后端需要根据请求头中的`token`鉴权
 ```
-POST user/BindInvitationCode
+POST user/bindInvitationCode
 ```
 ### 字段说明
 
