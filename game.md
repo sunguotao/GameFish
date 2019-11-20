@@ -5,7 +5,9 @@ js方法
 var game={
     "action":1,
     "jumpUrl":"",
-    "msg":""
+    "msg":"",
+    "actionType":0,
+    "adType":1
 }
 game为String类型
 window.android.callAndroid(game);
@@ -27,7 +29,9 @@ js方法
 ```js
 var game={
     "action":1,
+    "jumpUrl":"",
     "msg":"",
+    "actionType":0,
     "adType":1
 }
 ad:{
