@@ -34,7 +34,7 @@ var game={
     "actionType":0,
     "adType":1
 }
-ad:{
+adType:{
 0=视频广告观看完毕，
 1= 未看完，
 }
