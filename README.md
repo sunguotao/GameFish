@@ -543,7 +543,7 @@ POST user/setADstate
 | 参数名         | 类型            | 描述                          | 是否必须            |
 | ----------- | ------------- | --------------------------- | --------------- |
 | adId   | String   | 广告id| 是|
-| prizeType   | int   | prizeType 1 金币不足   2 游戏加速  3 飞行宝箱  4 转盘卷  5 获得恐龙  6 离线翻倍| 是|
+| actionType   | int   | actionType=1 离线广告 actionType=2 加速广告actionType=3 扭蛋广告actionType=4 打卡广告actionType=5 免费鱼干广告| 是|
 ```js
 {
     "code":0,
