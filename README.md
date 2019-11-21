@@ -552,6 +552,27 @@ POST user/setADstate
     "success":true
 }
 ``` 
+### 广告状态播放成功记录{# user/getADstate}
+
+后端需要根据请求头中的`token`鉴权
+```
+POST user/getADstate
+```
+### 字段说明
+
+| 参数名         | 类型            | 描述                          | 是否必须            |
+| ----------- | ------------- | --------------------------- | --------------- |
+| adId   | String   | 广告id| 是|
+| actionType   | int   | actionType=1 离线广告 actionType=2 加速广告actionType=3 扭蛋广告actionType=4 打卡广告actionType=5 免费鱼干广告| 是|
+```js
+{
+    "code":0,
+    "data":null,
+    "msg":"获取成功",
+    "success":true
+}
+``` 
+
 
 ### test{#test.json}
 
