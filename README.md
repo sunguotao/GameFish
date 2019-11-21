@@ -552,7 +552,7 @@ POST user/setADstate
     "success":true
 }
 ``` 
-### 广告状态播放成功记录{# user/getADstate}
+### 获取广告状态{# user/getADstate}
 
 后端需要根据请求头中的`token`鉴权
 ```
