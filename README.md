@@ -532,6 +532,26 @@ POST user/bindInvitationCode
     "success":true
 }
 ```
+### 广告状态播放成功记录{# user/setADstate}
+
+后端需要根据请求头中的`token`鉴权
+```
+POST user/setADstate
+```
+### 字段说明
+
+| 参数名         | 类型            | 描述                          | 是否必须            |
+| ----------- | ------------- | --------------------------- | --------------- |
+| adId   | String   | 广告id| 是|
+| prizeType   | int   | prizeType 1 金币不足   2 游戏加速  3 飞行宝箱  4 转盘卷  5 获得恐龙  6 离线翻倍| 是|
+```js
+{
+    "code":0,
+    "data":null,
+    "msg":"提交成功",
+    "success":true
+}
+``` 
 
 ### test{#test.json}
 
