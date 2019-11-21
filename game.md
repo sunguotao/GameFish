@@ -32,7 +32,8 @@ var game={
     "jumpUrl":"",
     "msg":"",
     "actionType":0,
-    "adType":1
+    "adType":1,
+    "adId":""
 }
 adType:{
 0=视频广告观看完毕，
