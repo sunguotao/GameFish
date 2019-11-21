@@ -532,7 +532,7 @@ POST user/bindInvitationCode
     "success":true
 }
 ```
-### 广告状态播放成功记录{# user/setADstate}
+### 广告状态播放成功记录{# user/setAdState}
 
 后端需要根据请求头中的`token`鉴权
 ```
@@ -552,7 +552,7 @@ POST user/setADstate
     "success":true
 }
 ``` 
-### 获取广告状态{# user/getADstate}
+### 获取广告状态{# user/getAdState}
 
 后端需要根据请求头中的`token`鉴权
 ```
