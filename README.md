@@ -572,7 +572,7 @@ POST user/getADstate
     "success":true
 }
 ``` 
-### 获取广告状态{# user/takeFishDried}
+### 领取金鱼干{# user/takeFishDried}
 
 后端需要根据请求头中的`token`鉴权
 ```
@@ -587,7 +587,7 @@ POST user/takeFishDried
 {
     "code":0,
     "data":null,
-    "msg":"收取成功",
+    "msg":"领取成功",
     "success":true
 }
 ``` 
