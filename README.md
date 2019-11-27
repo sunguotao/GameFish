@@ -572,7 +572,25 @@ POST user/getADstate
     "success":true
 }
 ``` 
+### 获取广告状态{# user/takeFishDried}
 
+后端需要根据请求头中的`token`鉴权
+```
+POST user/takeFishDried
+```
+### 字段说明
+
+| 参数名         | 类型            | 描述                          | 是否必须            |
+| ----------- | ------------- | --------------------------- | --------------- |
+| fishDried   | int   |金鱼干| 是|
+```js
+{
+    "code":0,
+    "data":null,
+    "msg":"收取成功",
+    "success":true
+}
+``` 
 
 ### test{#test.json}
 
