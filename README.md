@@ -591,6 +591,23 @@ POST user/takeFishDried
     "success":true
 }
 ``` 
+### app信息配置接口{# user/appConfig}
+
+后端需要根据请求头中的`token`鉴权
+```
+POST user/appConfig
+```
+```js
+{
+    "code":0,
+    "data":{
+        "gameUrl":"http://192.168.2.27:7456/build/"
+    },
+    "msg":"领取成功",
+    "success":true
+}
+```
+
 
 ### test{#test.json}
 
