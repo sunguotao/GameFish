@@ -15,6 +15,8 @@ action==1时，全屏视频广告播放,action==2时， 触发底部banner广告
 action==3时分享调起，action==4时网页调起，
 action==5时，收益的dialog，
 action==6时，红包列表dialog
+action==7时，2小时更新的金鱼干
+action==8时，撸猫指南
 待定
 ```
 ```js
