@@ -7,7 +7,9 @@ var game={
     "jumpUrl":"",
     "msg":"",
     "actionType":0,
-    "adType":1
+    "adType":1,
+    "fishDried":12
+
 }
 game为String类型,其中actionType：播放视频要分 离线  扭蛋 免费鱼干 打卡 加速做区分
 window.android.callAndroid(game);
