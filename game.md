@@ -8,8 +8,12 @@ var game={
     "msg":"",
     "actionType":0,
     "adType":1,
-    "fishDried":12
-
+    "fishDried":12,
+    "data":{
+        "redpackageUrl":"https://xiao.11478.com/appgame/redpackage.png",
+        "taskName":"猫咪升级红包",
+        "id":""
+    }
 }
 game为String类型,其中actionType：播放视频要分 离线  扭蛋 免费鱼干 打卡 加速做区分
 window.android.callAndroid(game);
@@ -19,6 +23,7 @@ action==5时，收益的dialog，
 action==6时，红包列表dialog
 action==7时，2小时更新的金鱼干
 action==8时，撸猫指南
+action==9时，action==9时，合成红包，data需要数据
 待定
 ```
 ```js
