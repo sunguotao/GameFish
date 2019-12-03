@@ -607,7 +607,28 @@ POST user/appConfig
     "success":true
 }
 ```
+### 公告{# user/noticeMsg}
 
+后端需要根据请求头中的`token`鉴权
+```
+POST user/noticeMsg
+```
+```js
+{
+    "code":0,
+    "data":[
+        {
+            "noticeId":"",
+            "title":"喵咪星球更新啦",
+            "info":"亲爱的猫友们：bug修复，bug修复，bug修复，bug修复，",
+            "time":35354545454545454,
+            "author":"猫咪星球运营团队"
+        }
+    ],
+    "msg":"领取成功",
+    "success":true
+}
+```
 
 ### test{#test.json}
 
