@@ -24,6 +24,7 @@ action==6时，红包列表dialog
 action==7时，2小时更新的金鱼干
 action==8时，撸猫指南
 action==9时，合成红包，data需要数据
+action==10时，公告
 待定
 ```
 ```js
