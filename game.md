@@ -12,6 +12,7 @@ var game={
     "data":{
         "redpackageUrl":"https://xiao.11478.com/appgame/redpackage.png",
         "taskName":"猫咪升级红包",
+        "desc":"随机5-50元红包",
         "id":""
     }
 }
