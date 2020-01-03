@@ -635,12 +635,7 @@ POST user/noticeMsg
 ```
 POST feedBack
 ```
-{
-    "code":0,
-    "data":null,
-    "msg":"感谢收到您的意见",
-    "success":true
-}
+
 ```
 ### 字段说明
 
@@ -648,6 +643,12 @@ POST feedBack
 | ----------- | ------------- | --------------------------- | --------------- |
 | feedBackMsg   | String   |意见| 是|
 ```js
+{
+    "code":0,
+    "data":null,
+    "msg":"感谢收到您的意见",
+    "success":true
+}
 ```
 
 
