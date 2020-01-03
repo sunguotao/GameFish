@@ -629,6 +629,27 @@ POST user/noticeMsg
     "success":true
 }
 ```
+### 意见反馈{# feedBack}
+
+后端需要根据请求头中的`token`鉴权
+```
+POST feedBack
+```
+{
+    "code":0,
+    "data":null,
+    "msg":"感谢收到您的意见",
+    "success":true
+}
+```
+### 字段说明
+
+| 参数名         | 类型            | 描述                          | 是否必须            |
+| ----------- | ------------- | --------------------------- | --------------- |
+| feedBackMsg   | String   |意见| 是|
+```js
+```
+
 
 ### test{#test.json}
 
