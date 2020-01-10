@@ -51,7 +51,7 @@ var game={
     "screenWidth":720,
     "screenHeight":1980
 }
-actionType:{
+adType:{
 0=视频广告观看完毕，
 1= 未看完，
 }
