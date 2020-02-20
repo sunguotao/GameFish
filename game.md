@@ -23,7 +23,7 @@ var game={
         "rightBtn":"观看视频翻倍",
         "updateVideoCountInfo":"每天晚上20点整重置视频次数(剩余15次)",
         "addCoins":"+36.0m",
-        "offine":"离线奖励上线为两个小时，当前已经离线36分钟"
+        "offline":"离线奖励上线为两个小时，当前已经离线36分钟"
     }
 }
 game为String类型,其中actionType：播放视频要分 离线  扭蛋 免费鱼干 打卡 加速做区分
