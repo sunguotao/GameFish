@@ -22,7 +22,8 @@ var game={
         "leftBtn":"立即领取",
         "rightBtn":"观看视频翻倍",
         "updateVideoCountInfo":"每天晚上20点整重置视频次数(剩余15次)",
-        "addCoins":"+36.0m"
+        "addCoins":"+36.0m",
+        "offine":"离线奖励上线为两个小时，当前已经离线36分钟"
     }
 }
 game为String类型,其中actionType：播放视频要分 离线  扭蛋 免费鱼干 打卡 加速做区分
@@ -38,7 +39,8 @@ action==10时，公告
 action==11时，获取分辨率
 action==12时，跳转到我的资产（金鱼干界面）
 action==13时，打开广告模式（led模式）需要传递ad_data数据(addCoins,updateVideoCountInfo,rightBtn)
-
+action==14时，打开广告模式(离线 ,打卡 ,免费银鱼干) 对应显示的数据需要显示
+action==15时，是幸运转盘之后获得奖励的界面，显示内容有 银鱼干，金鱼干，和喵力，对应数据显示
 待定
 ```
 ```js
