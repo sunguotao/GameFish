@@ -13,8 +13,16 @@ var game={
         "redpackageUrl":"https://xiao.11478.com/appgame/redpackage.png",
         "taskName":"猫咪升级红包",
         "desc":"随机5-50元红包",
-        "score": 6.48，
+        "score":6.48,
         "id":""
+    },
+    "ad_data":{
+        "id":0,
+        "title":"离线奖励",
+        "leftBtn":"立即领取",
+        "rightBtn":"观看视频翻倍",
+        "updateVideoCountInfo":"每天晚上20点整重置视频次数(剩余15次)",
+        "addCoins":"+36.0m"
     }
 }
 game为String类型,其中actionType：播放视频要分 离线  扭蛋 免费鱼干 打卡 加速做区分
@@ -29,6 +37,8 @@ action==9时，合成红包，data需要数据
 action==10时，公告
 action==11时，获取分辨率
 action==12时，跳转到我的资产（金鱼干界面）
+action==13时，打开广告模式（led模式）需要传递ad_data数据(addCoins,updateVideoCountInfo,rightBtn)
+
 待定
 ```
 ```js
