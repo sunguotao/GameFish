@@ -13,6 +13,7 @@ var game={
         "redpackageUrl":"https://xiao.11478.com/appgame/redpackage.png",
         "taskName":"猫咪升级红包",
         "desc":"随机5-50元红包",
+        "type":0
         "score":6.48,
         "id":""
     },
@@ -34,7 +35,7 @@ action==5时，收益的dialog，
 action==6时，红包列表dialog
 action==7时，2小时更新的金鱼干
 action==8时，撸猫指南
-action==9时，合成红包，data需要数据
+action==9时，合成红包，data需要数据(type==0是常规领取红包，type==1时，用户分享成功后，领取红包，type==2时，用户看广告视频，领取红包)
 action==10时，公告
 action==11时，获取分辨率
 action==12时，跳转到我的资产（金鱼干界面）
