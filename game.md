@@ -42,6 +42,7 @@ action==12时，跳转到我的资产（金鱼干界面）
 action==13时，打开广告模式（led模式）需要传递ad_data数据(addCoins,updateVideoCountInfo,rightBtn)
 action==14时，打开广告模式(离线 ,打卡 ,免费银鱼干) 对应显示的数据需要显示
 action==15时，是幸运转盘之后获得奖励的界面，显示内容有 银鱼干，金鱼干，和喵力，对应数据显示
+action==16时，关闭banner
 待定
 ```
 ```js
