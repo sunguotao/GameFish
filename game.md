@@ -29,7 +29,8 @@ var game={
 }
 game为String类型,其中actionType：播放视频要分 离线  扭蛋 免费鱼干 打卡 加速做区分
 window.android.callAndroid(game);
-action==1时，全屏视频广告播放,action==2时， 触发底部banner广告,
+action==1时，全屏视频广告播放,
+action==2时， 触发底部banner广告,
 action==3时分享调起，action==4时网页调起，
 action==5时，收益的dialog，
 action==6时，红包列表dialog
