@@ -543,7 +543,7 @@ POST user/setADstate
 | 参数名         | 类型            | 描述                          | 是否必须            |
 | ----------- | ------------- | --------------------------- | --------------- |
 | adId   | String   | 广告id| 是|
-| actionType   | int   | actionType=1 离线广告 ；actionType=2 加速广告；actionType=3 扭蛋广告；actionType=4 打卡广告；actionType=5 免费鱼干广告；actionType=6 鱼篮视频奖励，actionType=7  红包视频| 是|
+| actionType   | int   | actionType=1 离线广告 ；actionType=2 加速广告；actionType=3 扭蛋广告；actionType=4 打卡广告；actionType=5 免费鱼干广告；actionType=6 鱼篮视频奖励；actionType=7  红包视频| 是|
 ```js
 {
     "code":0,
