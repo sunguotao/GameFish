@@ -65,7 +65,8 @@ var game={
     "adType":1,
     "adId":"",
     "screenWidth":720,
-    "screenHeight":1980
+    "screenHeight":1980,
+    "channel":"tencent"
 }
 adType:{
 0=视频广告观看完毕，
