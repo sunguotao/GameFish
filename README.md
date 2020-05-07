@@ -650,8 +650,40 @@ POST feedBack
     "success":true
 }
 ```
+### 广告记录{# adRecord}
 
+后端需要根据请求头中的`token`鉴权
+```
+POST adRecord
+```
+### 字段说明
 
+| 参数名         | 类型            | 描述                          | 是否必须            |
+| ----------- | ------------- | --------------------------- | --------------- |
+| scene   | int   |0:穿山甲；1:广点通| 是|
+| type   | int   |0:激励视频；1:大图展示；2:banner；3:开屏页| 是|
+```js
+{
+    "code":0,
+    "data":null,
+    "msg":"提交成功",
+    "success":true
+}
+```
+### 注销账号{# logout}
+
+后端需要根据请求头中的`token`鉴权
+```
+POST logout
+```
+```js
+{
+    "code":0,
+    "data":null,
+    "msg":"注销成功",
+    "success":true
+}
+```
 ### test{#test.json}
 
 后端需要根据请求头中的`token`鉴权
