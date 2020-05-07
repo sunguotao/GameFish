@@ -684,6 +684,26 @@ POST logout
     "success":true
 }
 ```
+### 玩家补填邀请码功能{# submitTeacherCode}
+
+后端需要根据请求头中的`token`鉴权
+```
+POST /submitTeacherCode
+```
+### 字段说明
+
+| 参数名         | 类型            | 描述                          | 是否必须            |
+| ----------- | ------------- | --------------------------- | --------------- |
+| code   | String   |师傅的邀请码| 是|
+```js
+{
+    "code":0,
+    "data":null,
+    "msg":"绑定成功",
+    "success":true
+}
+```
+
 ### test{#test.json}
 
 后端需要根据请求头中的`token`鉴权
